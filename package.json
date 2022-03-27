@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/JJackson510/feeling-socal-today#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.8"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
