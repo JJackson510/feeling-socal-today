@@ -33,10 +33,9 @@ const UserShema = new Schema(
     } 
 );
 
-UserShema.virtuals('friendCount').get(function() {
+UserShema.virtual('friendCount').get(function() {
     return this.friends.length;
 })
-
 const User = model('User', UserShema);
 
 module.exports = User;
