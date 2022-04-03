@@ -11,7 +11,7 @@ app.use(require('./routes'));
 mongoose.set('debug', true);
 
 mongoose.connect(process.env.MONGODB_uri || 'mongodb://localhost:27017/felling-social', {
-    useNewParsers: true,
+    
     useUnifiedTopology: true
 });
 
